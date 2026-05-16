@@ -21,7 +21,7 @@ jobs:
 
       - name: Lint
         working-directory: packages/python
-        run: ruff check .
+        run: ruff check guardrail/
 
       - name: Test
         working-directory: packages/python
