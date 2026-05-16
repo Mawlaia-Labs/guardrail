@@ -34,7 +34,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mawlaia/guardrail"
+    "url": "https://github.com/Mawlaia-Labs/guardrail"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   },
   "license": "MIT"
 }
