@@ -1,10 +1,12 @@
 {
-  "name": "@mawlaia/guardrail",
+  "name": "mawlaia-guardrail",
   "version": "0.1.0",
-  "description": "Runtime safety proxy — prompt injection, jailbreak, PII, harmful content",
+  "description": "Runtime safety proxy \u2014 prompt injection, jailbreak, PII, harmful content",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc",
     "test": "jest",
@@ -15,8 +17,12 @@
     "@anthropic-ai/sdk": ">=0.25.0"
   },
   "peerDependenciesMeta": {
-    "openai": { "optional": true },
-    "@anthropic-ai/sdk": { "optional": true }
+    "openai": {
+      "optional": true
+    },
+    "@anthropic-ai/sdk": {
+      "optional": true
+    }
   },
   "devDependencies": {
     "@types/jest": "^29.5.0",
@@ -30,15 +36,13 @@
   "jest": {
     "preset": "ts-jest",
     "testEnvironment": "node",
-    "roots": ["<rootDir>/tests"]
+    "roots": [
+      "<rootDir>/tests"
+    ]
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/Mawlaia-Labs/guardrail"
-  },
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org/"
   },
   "license": "MIT"
 }
