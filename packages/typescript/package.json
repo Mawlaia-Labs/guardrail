@@ -1,5 +1,5 @@
 {
-  "name": "guardrail",
+  "name": "@mawlaia/guardrail",
   "version": "0.1.0",
   "description": "Runtime safety proxy — prompt injection, jailbreak, PII, harmful content",
   "main": "dist/index.js",

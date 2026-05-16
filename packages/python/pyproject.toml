@@ -3,7 +3,7 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
-name = "guardrail"
+name = "mawlaia-guardrail"
 version = "0.1.0"
 description = "Runtime safety proxy for LLM applications"
 authors = ["Mawlaia <dev@mawlaia.com>"]
