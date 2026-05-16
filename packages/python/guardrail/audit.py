@@ -1,6 +1,5 @@
 """Audit log — append-only JSON log of every flagged scan."""
 from __future__ import annotations
-import json
 from pathlib import Path
 from .models import AuditEntry
 
