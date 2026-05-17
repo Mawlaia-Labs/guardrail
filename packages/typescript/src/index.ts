@@ -9,3 +9,7 @@ export { Scanner } from "./scanner";
 export { Policy, PolicyConfig, DEFAULT_POLICY } from "./policy";
 export { AuditLog } from "./audit";
 export { SafeOpenAI, GuardrailError, SafeOpenAIOptions } from "./proxy/openai";
+export { HostedGuardrail } from "./hosted_guardrail";
+export type { HostedGuardrailOptions, PolicyRule, Policy as HostedPolicy, CheckResult as HostedCheckResult } from "./hosted_guardrail";
+
+export const VERSION = "0.3.0";

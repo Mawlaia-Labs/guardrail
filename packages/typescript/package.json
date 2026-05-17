@@ -1,6 +1,6 @@
 {
   "name": "mawlaia-guardrail",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "description": "Runtime safety proxy \u2014 prompt injection, jailbreak, PII, harmful content",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
