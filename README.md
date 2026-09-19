@@ -43,6 +43,10 @@ response = client.chat.completions.create(
 - [ ] Hosted API ([mawlaia.com](https://mawlaia.com))
 - [ ] SOC 2 Type II
 
+## Contributors
+
+- [Adnan Ghribi](https://github.com/aghribi)
+
 ## License
 
 MIT
